@@ -1,0 +1,25 @@
+{
+  "name": "voice-to-text",
+  "version": "1.0.0",
+  "description": "speech recognition for text",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manuellatorreao/VoiceToText.git"
+  },
+  "author": "Manuella Torreao",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/manuellatorreao/VoiceToText/issues"
+  },
+  "homepage": "https://github.com/manuellatorreao/VoiceToText#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "ejs": "^2.5.9",
+    "express": "^4.16.3",
+    "socket.io": "^2.1.0"
+  }
+}
